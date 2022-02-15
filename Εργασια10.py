@@ -12,7 +12,7 @@ for byte in a_byte_array:
 new = []
 for item in byte_list:
     list1=list(item)
-    if len(list1)<7:
+    while len(list1)<7:
         list1.insert(0,'0') #fills in gaps of non len==7 items
     #print(list1)
 #------------------------------------------------------------------------------
